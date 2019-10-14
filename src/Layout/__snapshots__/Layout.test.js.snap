@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly with no props 1`] = `
+Array [
+  <div
+    class="ui inverted top fixed menu"
+  >
+    <div
+      class="ui container"
+    >
+      <a
+        class="header item"
+        href="/"
+      >
+        React Kata
+      </a>
+      <a
+        class="item"
+        href="/"
+      >
+        Home
+      </a>
+      <div
+        aria-expanded="false"
+        class="ui item simple dropdown"
+        role="listbox"
+        tabindex="0"
+      >
+        <div
+          aria-atomic="true"
+          aria-live="polite"
+          class="text"
+          role="alert"
+        >
+          Options
+        </div>
+        <i
+          aria-hidden="true"
+          class="dropdown icon"
+        />
+        <div
+          class="menu transition"
+        >
+          <a
+            class="item"
+            href="/read"
+            role="option"
+          >
+            Output from data read
+          </a>
+          <a
+            class="item"
+            href="/all"
+            role="option"
+          >
+            All Books and Magazines
+          </a>
+          <div
+            class="divider"
+          />
+          <div
+            class="header"
+          >
+            Search
+          </div>
+          <a
+            class="item"
+            href="/isbn/"
+            role="option"
+          >
+            Find by ISBN
+          </a>
+          <a
+            class="item"
+            href="/email/"
+            role="option"
+          >
+            Find by author\`s email
+          </a>
+          <div
+            class="divider"
+          />
+          <div
+            class="header"
+          >
+            Sorted Content
+          </div>
+          <a
+            class="item"
+            href="/sorted/"
+            role="option"
+          >
+            Sorted by Title
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    class="ui container"
+    style="margin-top:5em"
+  >
+    <h1
+      class="ui header"
+    >
+      React Kata
+    </h1>
+    <div
+      class="ui vertical segment"
+    />
+  </div>,
+  <div
+    class="ui inverted vertical segment"
+  >
+    <div
+      class="ui container"
+    >
+      <h2
+        class="ui inverted header"
+      >
+        Summary of Instructions
+      </h2>
+      <ol
+        class="ui inverted list"
+        role="list"
+      >
+        <li
+          class=""
+          role="listitem"
+        >
+          Your software should read all data from the given CSV files in a meaningful structure.
+        </li>
+        <li
+          class=""
+          role="listitem"
+        >
+          Print out all books and magazines with all their details (with a meaningful output format).
+        </li>
+        <li
+          class=""
+          role="listitem"
+        >
+          Find a book or magazine by its \`isbn\`.
+        </li>
+        <li
+          class=""
+          role="listitem"
+        >
+          Find all books and magazines by their \`authors\`’ email..
+        </li>
+        <li
+          class=""
+          role="listitem"
+        >
+          Print out all books and magazines with all their details sorted by \`title\`. This sort should be done for books and magazines together.
+        </li>
+      </ol>
+      <p>
+        Please read full instructions on the 
+        <a
+          href="https://github.com/echocat/react-kata-1/blob/master/README.md"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+           README 
+        </a>
+         file
+      </p>
+    </div>
+  </div>,
+]
+`;
