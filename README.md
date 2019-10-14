@@ -31,6 +31,10 @@ You have to implement an abstracted and simple library system.
 
 4. Develop your code based on React.js version 16.
 
+   You do not need to use Semantic-UI, the layout, tests or routing provided.
+   You can rename, refactor, remove or delete them as you with.
+   They were created to provide a minimum structure so you can focus on what you think it is important to finish the tasks requested.
+
 5. Keep the following priorities in mind while you implementing - in the mentioned order:
    1. Code quality
    2. Usage of object oriented methods
@@ -53,7 +57,7 @@ You have to implement an abstracted and simple library system.
 
 1. Your software should read all data from the given CSV files in a meaningful structure.
 
-2. Print out all books and magazines (could be a GUI, console, …) with all their details (with a meaningful output format).
+2. Print out all books and magazines with all their details (with a meaningful output format).
 
    > **Hint**: Do not call `printBooks(...)` first and then `printMagazines(...)` ;-)
 
